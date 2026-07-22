@@ -1,0 +1,26 @@
+{
+  "name": "multer_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node --watch index.js",
+    "start": "node index.js",
+    "worker" : "node ./src/worker/worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bullmq": "^5.80.9",
+    "cloudinary": "^2.10.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1",
+    "mongoose": "^9.7.4",
+    "multer": "^2.2.0",
+    "redis": "^6.1.0"
+  }
+}
