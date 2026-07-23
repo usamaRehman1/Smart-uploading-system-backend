@@ -1,7 +1,8 @@
 import express from "express";
 import { connectDB } from "./src/config/connectionDB.js";
 import { ENV } from "./src/constant.js";
-import router from "./src/route.js"
+import router from "./src/route.js";
+import "./src/worker/worker.js";
 
 connectDB();
 const app = express();
