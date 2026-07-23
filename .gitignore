@@ -44,9 +44,6 @@ temp/
 *.sqlite
 *.sqlite3
 
-# Uploaded files
-uploads/
-
 # Optional npm cache
 .npm
 
